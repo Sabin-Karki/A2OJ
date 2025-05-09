@@ -21,7 +21,7 @@ public class Equilibrium {
 
       sumfx += fx;
       Sumfy +=fy;
-     Sumfz+=fz;
+     Sumfz +=fz;
 
 
         }
