@@ -22,9 +22,7 @@ public class Equilibrium {
       sumfx += fx;
       Sumfy +=fy;
      Sumfz +=fz;
-
-
-        }
+   }
         if(sumfx==0&&Sumfy==0&&Sumfz==0){
             System.out.println("YES");
         }
@@ -34,6 +32,4 @@ public class Equilibrium {
 
         scanner.close();
     }
-
-    
 }
