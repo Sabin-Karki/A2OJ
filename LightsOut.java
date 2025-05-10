@@ -21,7 +21,7 @@ public class LightsOut{
             for(int j=0;j<n;j++){
                  int toggleCount = numPresses[i][j];
 
-                 for(int d=0;d<4;d++){        // d represents all 4 direction which affects adjacent sides...
+                 for(int d=0;d<4;d++){ // d represents all 4 direction which affects adjacent sides...
                     int ni = i + dx[d];
                     int nj = j + dy[d];
 
@@ -47,10 +47,3 @@ public class LightsOut{
            scanner.close();
     }
 }
-
-
-// 000
-// 010
-// 000
-
-// 1 1 
