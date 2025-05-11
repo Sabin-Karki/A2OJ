@@ -1,5 +1,3 @@
-package A20J;
-
 import java.util.Scanner;
 
 //if total netforces is 0 then it is an equilibrium
