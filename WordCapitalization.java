@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+//actually 8th question
 public class WordCapitalization{
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
