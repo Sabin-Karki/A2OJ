@@ -6,7 +6,7 @@ public class PickyCat {
     // hmm so question wants me to input first test case..then length of array the elements of that length
     // print yes if it is possible to make element at index 1 become median of array and no otherwise
     //so what really is median of array ok..if n=3 [4,5,1] sort it..[1,4,5]...do n/2 and the th term is median..so 3/2 is 1.5->rounds to 2(2nd smallest will be ).then 4 is the median...
-    // you can also choose an index and multiply ai by -1 ...you can choose index to be 1 too
+    // you can also choose an index and multiply ai by -1 ...you can choose index to be 1 too<! a simple test for new github settings>
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
