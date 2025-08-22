@@ -10,9 +10,9 @@ public class PerfectPermutation{
 
         }else{
             //when size of permutaiton is evenp,perfect permutation is possible
-            int [] arr = new int[n];
-            for(int i=1;i<=n;i++){
-                System.out.println(i+1);;
+         
+            for(int i=1;i<=n;i+=2){
+                System.out.print((i+1) + " " + i + " ");
             }
         }
     }
