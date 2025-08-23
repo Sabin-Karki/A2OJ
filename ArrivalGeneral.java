@@ -17,16 +17,16 @@ public class ArrivalGeneral {
         int minIndex = -1;
         
       for ( int i=0;i<n;i++){
-        if(soldiers[i]>maxHeight){
-            maxHeight=soldiers[i];
-            maxIndex=i; // the index which was not known <-1> is now turned to index 0 for max
-        }
+        //get the leftmost maximum and last minimum
+      int currentHeight = soldiers[i];
+      if(currentHeight>maxHeight){
+        maxHeight=currentHeight;
+        maxIndex=i;
       }
-      for(int i=0;i<n;i++){
-        if(soldiers[i]<minHeight){
-            minHeight=soldiers[i];
-            minIndex=i;
-        }
+      if(currentHeight<=minHeight){
+        minHeight=currentHeight;
+        minIndex=i;
+      }
       }
       int moves = maxIndex +(n-1-minIndex);
       if(maxIndex>minIndex){
